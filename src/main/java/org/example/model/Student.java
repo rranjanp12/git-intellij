@@ -6,10 +6,13 @@ public class Student {
 
     public String getName() {
         return name;
+
     }
 
     public void setName(String name) {
+        System.out.println("Hello");
         this.name = name;
+
     }
 
 
